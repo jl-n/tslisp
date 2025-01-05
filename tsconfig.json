@@ -1,0 +1,5 @@
+{
+  "compilerOptions": {
+    "noErrorTruncation": true // Needed to see the full type annotation in VSCode: https://stackoverflow.com/questions/53113031/how-to-see-a-fully-expanded-typescript-type-without-n-more-and
+  }
+}
