@@ -4,7 +4,7 @@ tslisp is an implementation of LISP that's able to bootstrap John McCarthy's met
 
 ## Getting Started
 
-The code for the interpreter lives in `src/lisp.ts`. The code for the metacircular evaluator lives in `src/metacircular.ts`. You can see the result of evaluation by hovering over the `Result` type.
+The code for the interpreter lives in `lisp.ts`. The code for the metacircular evaluator lives in `metacircular.ts`. You can see the result of evaluation by hovering over the `Result` type.
 
 During development you might find it convenient to run `pnpm test` to ensure the project type checks. You might also want to make this change to prevent VSCode truncating type annotations: https://stackoverflow.com/a/67746753.
 
